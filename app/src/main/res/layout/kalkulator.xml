@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="10dp"
     android:gravity="center"
     android:background="@android:color/white">
 
@@ -17,7 +17,8 @@
         android:inputType="numberDecimal"
         android:padding="12dp"
         android:background="@android:drawable/edit_text"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="10dp"/>
 
     <EditText
         android:id="@+id/etkedua"
@@ -25,11 +26,10 @@
         android:layout_height="wrap_content"
         android:hint="Angka kedua"
         android:inputType="numberDecimal"
-        android:padding="12dp"
+        android:padding="10dp"
         android:background="@android:drawable/edit_text"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="20dp" />
 
-    <!-- Horizontal LinearLayout for buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,18 +38,26 @@
         android:layout_marginTop="16dp">
 
         <Button
-            android:id="@+id/btnPlus"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnsatu"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="Tambah"
+            android:text="1"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btndua"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="2"
             android:layout_marginEnd="8dp"
             android:padding="12dp" />
 
         <Button
-            android:id="@+id/btnMinus"
-            android:layout_width="wrap_content"
+            android:id="@+id/btntiga"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="Kurang"
+            android:text="3"
             android:padding="12dp" />
     </LinearLayout>
 
@@ -61,18 +69,65 @@
         android:layout_marginTop="16dp">
 
         <Button
-            android:id="@+id/btnkali"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnempat"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="kali"
+            android:text="4"
             android:layout_marginEnd="8dp"
             android:padding="12dp" />
 
         <Button
-            android:id="@+id/btnbagi"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnlima"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="bagi"
+            android:text="5"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnenam"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/bttujuh"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btndelapan"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnsembilan"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnnol"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="0"
             android:padding="12dp" />
     </LinearLayout>
 
@@ -86,6 +141,54 @@
         android:textSize="24sp"
         android:visibility="invisible"
         />
+
+    <!-- Horizontal LinearLayout for buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="+
+"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnkali"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="×"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnbagi"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="÷"
+            android:padding="12dp" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnClear"
