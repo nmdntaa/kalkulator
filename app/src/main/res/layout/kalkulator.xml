@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -44,7 +43,8 @@
             android:layout_height="wrap_content"
             android:text="1"
             android:layout_marginEnd="8dp"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btndua"
@@ -52,14 +52,16 @@
             android:layout_height="wrap_content"
             android:text="2"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btntiga"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="3"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
     </LinearLayout>
 
     <LinearLayout
@@ -75,7 +77,8 @@
             android:layout_height="wrap_content"
             android:text="4"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btnlima"
@@ -83,14 +86,16 @@
             android:layout_height="wrap_content"
             android:text="5"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btnenam"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="6"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
     </LinearLayout>
 
     <LinearLayout
@@ -106,7 +111,8 @@
             android:layout_height="wrap_content"
             android:text="7"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btndelapan"
@@ -114,7 +120,8 @@
             android:layout_height="wrap_content"
             android:text="8"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btnsembilan"
@@ -122,14 +129,16 @@
             android:layout_height="wrap_content"
             android:text="9"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btnnol"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="0"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
     </LinearLayout>
 
     <TextView
@@ -140,10 +149,8 @@
         android:text="Result"
         android:textColor="@android:color/black"
         android:textSize="24sp"
-        android:visibility="invisible"
-        />
+        android:visibility="invisible"/>
 
-    <!-- Horizontal LinearLayout for buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -155,17 +162,18 @@
             android:id="@+id/btnPlus"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="+
-"
+            android:text="+"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btnMinus"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="-"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
     </LinearLayout>
 
     <LinearLayout
@@ -181,14 +189,16 @@
             android:layout_height="wrap_content"
             android:text="×"
             android:layout_marginEnd="8dp"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
 
         <Button
             android:id="@+id/btnbagi"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="÷"
-            android:padding="12dp" />
+            android:padding="12dp"
+            android:background="#F5C45E"/>
     </LinearLayout>
 
     <Button
@@ -198,8 +208,6 @@
         android:text="Clear"
         android:layout_marginTop="16dp"
         android:layout_below="@id/btnbagi"
-        android:layout_centerHorizontal="true" />
-
-
-
+        android:layout_centerHorizontal="true"
+        android:background="#F5C45E"/>
 </LinearLayout>
